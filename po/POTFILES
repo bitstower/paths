@@ -1,0 +1,6 @@
+data/com.bitstower.Paths.appdata.xml.in
+data/com.bitstower.Paths.desktop.in
+data/com.bitstower.Paths.gschema.xml
+data/ui/MainWindow.ui
+src/Application.vala
+src/MainWindow.vala

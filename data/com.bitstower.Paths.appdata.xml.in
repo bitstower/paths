@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.bitstower.Paths</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <developer_name>bitstower</developer_name>
+  <url type="homepage">https://github.com/bitstower/paths</url>
+  <url type="bugtracker">https://github.com/bitstower/paths/issues</url>
+  <launchable type="desktop-id">com.bitstower.Paths.desktop</launchable>
+  <translation type="gettext">com.bitstower.Paths</translation>
+
+  <name>Paths</name>
+  <summary>A mobile file manager.</summary>
+  <description></description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image width="412" height="612">https://raw.githubusercontent.com/bitstower/paths/master/preview.png</image>
+      <caption>Folder view</caption>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="0.1.0" date="2021-01-30">
+      <description>
+        <p>Paths 0.1.0 is the first release.</p>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1" />
+
+  <custom>
+    <value key="Purism::form_factor">workstation</value>
+    <value key="Purism::form_factor">mobile</value>
+  </custom>
+</component>
