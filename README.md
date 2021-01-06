@@ -2,7 +2,7 @@
 
 ![](data/icons/com.bitstower.Paths.svg?raw=true)
 
-# Paths
+# [WIP] Paths
 
 A mobile file manager.
 
