@@ -3,5 +3,7 @@
   <gresource prefix="/com/bitstower/Paths">
     <file compressed="true">Application.css</file>
     <file compressed="true">MainWindow.ui</file>
+    <file compressed="true">MainHeaderBar.ui</file>
+    <file compressed="true">NavHeaderBar.ui</file>
   </gresource>
 </gresources>

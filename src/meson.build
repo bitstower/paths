@@ -1,6 +1,8 @@
 app_sources = [
   'Application.vala',
   'MainWindow.vala',
+  'MainHeaderBar.vala',
+  'NavHeaderBar.vala',
   app_constants,
   app_ui_resources
 ]
