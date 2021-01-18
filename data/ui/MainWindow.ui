@@ -20,13 +20,109 @@
           </packing>
         </child>
         <child>
-          <object class="HdyDeck">
+          <object class="GtkScrolledWindow" id="hscroll">
             <property name="visible">True</property>
+            <property name="overlay_scrolling">True</property>
+            <property name="receives-default">True</property>
+            <!--<property name="hscrollbar_policy">external</property>-->
+            <property name="vscrollbar_policy">never</property>
+            <child>
+              <object class="GtkBox">
+                <property name="visible">True</property>
+                <property name="orientation">horizontal</property>
+                <style>
+                  <class name="path-bar"/>
+                </style>
+
+                <child>
+                  <object class="GtkButton">
+                    <property name="visible">True</property>
+                    <property name="label">home</property>
+                    <style>
+                      <class name="text-button"/>
+                    </style>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="GtkButton">
+                    <property name="visible">True</property>
+                    <property name="label">myveo</property>
+                    <style>
+                      <class name="text-button"/>
+                    </style>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="GtkButton">
+                    <property name="visible">True</property>
+                    <property name="label">b</property>
+                    <style>
+                      <class name="text-button"/>
+                    </style>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="GtkButton">
+                    <property name="visible">True</property>
+                    <property name="label">p</property>
+                    <style>
+                      <class name="text-button"/>
+                    </style>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="GtkButton">
+                    <property name="visible">True</property>
+                    <property name="label">paths</property>
+                    <style>
+                      <class name="text-button"/>
+                    </style>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="GtkButton">
+                    <property name="visible">True</property>
+                    <property name="label">build-aux</property>
+                    <style>
+                      <class name="text-button"/>
+                    </style>
+                  </object>
+                </child>
+
+
+                <child>
+                  <object class="GtkButton">
+                    <property name="visible">True</property>
+                    <property name="label">meson</property>
+                    <style>
+                      <class name="text-button"/>
+                    </style>
+                  </object>
+                </child>
+
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="label">Paths</property>
           </object>
           <packing>
             <property name="expand">True</property>
             <property name="fill">True</property>
-            <property name="position">1</property>
+            <property name="position">2</property>
           </packing>
         </child>
       </object>

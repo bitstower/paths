@@ -4,6 +4,9 @@ public class Paths.MainWindow : Hdy.ApplicationWindow {
     [GtkChild]
     private Gtk.Box titlebar;
 
+    [GtkChild]
+    private Gtk.ScrolledWindow hscroll;
+
     private Paths.MainHeaderBar main_header_bar;
 
     private Paths.NavHeaderBar nav_header_bar;
@@ -19,5 +22,7 @@ public class Paths.MainWindow : Hdy.ApplicationWindow {
         this.main_header_bar = new Paths.MainHeaderBar ();
         this.nav_header_bar = new Paths.NavHeaderBar ();
         this.titlebar.pack_start (this.nav_header_bar, false);
+
+        this.set_default_size (300, 500);
     }
 }
