@@ -4,11 +4,7 @@ public class Paths.MainWindow : Hdy.ApplicationWindow {
     [GtkChild]
     private Gtk.Box titlebar;
 
-    [GtkChild]
-    private Gtk.ScrolledWindow hscroll;
-
     private Paths.MainHeaderBar main_header_bar;
-
     private Paths.NavHeaderBar nav_header_bar;
 
     public MainWindow (Gtk.Application app) {
@@ -17,7 +13,6 @@ public class Paths.MainWindow : Hdy.ApplicationWindow {
             icon_name: Constants.APP_ID,
             title: _("Paths")
         );
-
 
         this.main_header_bar = new Paths.MainHeaderBar ();
         this.nav_header_bar = new Paths.NavHeaderBar ();

@@ -20,6 +20,9 @@
             <property name="icon_size">1</property>
           </object>
         </child>
+        <style>
+          <class name="image-button"/>
+        </style>
       </object>
       <packing>
         <property name="pack_type">start</property>
@@ -40,6 +43,9 @@
             <property name="icon_size">1</property>
           </object>
         </child>
+        <style>
+          <class name="image-button"/>
+        </style>
       </object>
       <packing>
         <property name="pack_type">end</property>

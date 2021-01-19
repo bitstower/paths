@@ -9,11 +9,13 @@
 
 .overlay-indicator slider {
   background-color: transparent;
+  border: none;
 }
 
 .path-bar {
   border-radius: 0px 0px 0px 0px;
-  border: 1px @borders solid;
+  border: none;
+  border-bottom: 1px @borders solid;
   background-color: @theme_bg_color;
   padding-right: 6px;
 }
@@ -25,6 +27,10 @@
 .path-bar button:first-child {
   border-width: 0px 1px 0px 0px;
   border-radius: 3.5px 0px 0px 3.5px;
+}
+
+.path-bar button:last-child {
+  margin-right: 20px;
 }
 
 
